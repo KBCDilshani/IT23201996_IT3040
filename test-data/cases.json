@@ -1,0 +1,254 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "name": "Convert a daily sentence indicating a traffic delay.",
+    "type": "positive",
+    "input": "traffic thibba nisaa mama meeting ekata late vuNaa.",
+    "expected": "traffic තිබ්බ නිසා මම meeting එකට late වුණා."
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "name": "Convert a compound daily request sentence with a missing confirmation.",
+    "type": "positive",
+    "input": "oyaa kiyuva vidhihata form eka fill karalaa submit kalaa, namuth confirmation ekak thaama aave naehae. velaavak thibunoth oyaata puluvandha ee gaena balanna?",
+    "expected": "ඔයා කියුව විදිහට form එක fill කරලා submit කලා, නමුත් confirmation එකක් තාම ආවෙ නැහැ. වෙලාවක් තිබුනොත් ඔයාට පුලුවන්ද ඒ ගැන බලන්න?"
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "name": "Convert a daily sentence explaining task planning for a deadline",
+    "type": "positive",
+    "input": "mata iiLaGa sathiyee project deadline eka thiyena nisaa, mama dhaenma daily tasks hoDHata plan karanna hithuvaa. Reminders calendar eke set karalaa, sha unnecessary distractions avoid karanna social media usage limit karalaa, time mamangement hariyata maintain karanna loku uthsahayakk dhenavaa, mokadha kalin vagee deadline eka miss karanne naee kiyalaa mama hithaagaththaa.",
+    "expected": "මට ඊළඟ සතියේ project deadline එක තියෙන නිසා, මම දැන්ම daily tasks හොඳට plan කරන්න හිතුවා, reminders calendar එක්ē සෙට් කරලා , සහ unnecessary distractions avoid කරන්න social media usage limit කරලා, time management හරියට maintain කරන්න ලොකු උත්සහයක්ක් දෙනවා, මොකද කලින් වගේ deadline එක miss කරන්නේ නෑ කියලා මම හිතාගත්තා. "
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "name": "Convert a polite short request sentence",
+    "type": "positive",
+    "input": "karuNaakara eeka dhenna puluvandha?",
+    "expected": "කරුණාකර ඒක දෙන්න පුලුවන්ද?"
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "name": "Convert polite request and document request generation",
+    "type": "positive",
+    "input": "samaavenna, podi vaeradhimak vunee. Oyaata puluvannam mata documents tika email karanna. Mama aaye ee tika hariyata hadhala evannam.",
+    "expected": "සමාවෙන්න, පොඩි වැරදීමක් වුනේ. ඔයාට පුලුවන්නම් මට documents ටික email කරන්න. මම ආයෙ ඒ ටික හරියට හදලා එවන්නම්. "
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "name": "Covert meeting miss scenario due to connectivity issue",
+    "type": "positive",
+    "input": "Teams meeting ekee link eka WhatsApp karalaa Email ekakin confirm karanna vunaa. Namuth WiFi issue ekak thibba nisa confirmation eka hariyata vunee naee. Ee nisa mata meeting eka magarunaa.",
+    "expected": "Teams meeting එකේ link එක WhatsApp කරලා Email එකකින් confirm කරන්න වුනා. නමුත් WiFi issue එකක් තිබ්බ නිසා confirmation එක හරියට වුනේ නෑ. ඒ නිසා මට meeting එක මගරුනා. "
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "name": "Convert daily sentence indicating payment amount",
+    "type": "positive",
+    "input": "mata Rs. 5000k gevanna thiyenavaa.",
+    "expected": "මට Rs. 5000ක් ගෙවන්න තියෙනවා."
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "name": "Covert daily sentence expressing concern and advice.",
+    "type": "positive",
+    "input": "oyaa monavadha karanna yanne kiyalaa mata hariyata therenne nae, karana dheyak parissamen hithalaa balalaa karanna.",
+    "expected": "ඔයා මොනවද කරන්න යන්නෙ කියලා මට හරියට තෙරෙන්නෙ නැ, කරන දෙයක් පරිස්සමෙන් හිතලා බලලා කරන්න."
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "name": "Convert emotinal state with work persistence sentence.",
+    "type": "positive",
+    "input": "adha dhavasa amuthu dhavasak vagee dhaenenavaa. Bhayak ekka loku mahansiyak dhaenunath adha dhavase vaeda tika ivara nokaloth vaeda godagaehena nisaa amaaruven vunath vaeda tika karanna gaththaa. ",
+    "expected": "අද දවස අමුතු දවසක් වගේ දැනෙනවා. භයක් එක්ක ලොකු මහන්සියක් දැනුනත් අද දවසෙ වැඩ ටික ඉවර නොකලොත් වැඩ ගොඩගැහෙන නිසා අමාරුවෙන් වුනත් වැඩ ටික කරන්න ගත්තා. "
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "name": "Convert daily sentence expressing approval",
+    "type": "positive",
+    "input": "ela machan, supiri plan ekak!",
+    "expected": "එල මචන්, සුපිරි plan එකක්!"
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "name": "Convert daily sentence requesting clarification",
+    "type": "positive",
+    "input": "oyaa mehema karanne mokak nissaa dha kiyala mata hariyata therenne nae, poddak therum karalaa kiyanna puluwndha mata?",
+    "expected": "ඔයා මෙහෙම කරන්නේ මොකක් නිසා ද කියලා මට හරියට තෙරෙන්නෙ නැ, පොඩ්ඩක් තෙරුම් කරලා කියන්න පුලුවන්ද මට?"
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "name": "Converted future dated personal event sentence ",
+    "type": "positive",
+    "input": "heta 2026-01-22 godak visheeSha dhavasak vageema vaeda vaedi dhavasak. heta 11.00 AM vedhdhi api colombo inna oona mokadha magee hoDHama yaaLuvaagee wedding eka nisaa. heta dhavasa lassana vageema godaak sathutu hithena dhavasak veevi. ",
+    "expected": "හෙට 2026-01-22 ගොඩක් විශේෂ දවසක් වගේම වැඩ වැඩි දවසක්. හෙට 11.00 AM වෙද්දි අපි colombo ඉන්න ඕන මොකද මගේ හොඳම යාළුවාගේ wedding එක නිසා. හෙට දවස ලස්සන වගේම ගොඩාක් සතුටු හිතෙන දවසක් වේවි. "
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "name": "Convert past tense sentence",
+    "type": "positive",
+    "input": "mama iiyee parakku vunaa.",
+    "expected": "මම ඊයේ පරක්කු වුනා."
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "name": "Convert daily sentence indicating relaxation.",
+    "type": "positive",
+    "input": "mama dhean chill mode ekee inne, poddak music ahala hitha relax karagnna hadhanavaa.",
+    "expected": "මම දැන් chill mode එකේ ඉන්නේ, පොඩ්ඩක් music අහලා හිත relax කරගන්න හදනවා. "
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "name": "Convert polite request for detailed explanation.",
+    "type": "positive",
+    "input": "karuNaakaralaa oyaa meeka gaena podi vistharayak karalaa kiyanna, mokadha mama kalin karapu dheval samaga meeka poddak venas vagee kiyalaa hithenavaa, ee nisaa mee dhee gaena mata unandhuvak vageema hariyata therum ganna loku aasavak thiyenavaa.",
+    "expected": "කරුණාකරලා ඔයා මේක ගැන පොඩි විස්තරයක් කරලා කියන්න, මොකද මම කලින් කරපු දෙවල් සමග මේක පොඩ්ඩක් වෙනස් වගේ කියලා හිතෙනවා, ඒ නිසා මේ දේ ගැන මට උනන්දුවක් වගේම හරියට තෙරුම් ගන්න ලොකු ආසවක් තියෙනවා."
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "name": "Convert daily sentence indicating acknowledgement.",
+    "type": "positive",
+    "input": "hari, mama eeka balannam.",
+    "expected": "හරි, මම ඒක බලන්නම්."
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "name": "Convert future intention work completion sentence.",
+    "type": "positive",
+    "input": "mama heta dhavasa aethulatha mee vaedee kohomahari ivara karanavaa kiyalaa hithagena inne.",
+    "expected": "මම හෙට දවස ඇතුලත මේ වැඩේ කොහොමහරි ඉවර කරනවා කියලා හිතාගෙන ඉන්නේ."
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "name": "Convert daily reflection on task difficulty and strategy.",
+    "type": "positive",
+    "input": "adoo meeka nam tikak amaaruyi machan, eka paarata hithala karanna baee vagee ekak magee hitha kiyannavaa, ee vunaata podda podda kalpanaven karala baeluvoth, hariyata vaeda tika karaganna puluvan veyi. mul tika hariyata karagaththata passe loku avlak naethuva kaalaya hondatama aragena ithuru vaeda tika hodhata karaganna puluvan kiyalaa mama hithanavaa. eka nisaa mee vada tika hodhata therum aran karagena yamu.",
+    "expected": "අඩෝ මේක නම් ටිකක් අමාරුයි මචන්, එක පාරට හිතල කරන්න බෑ වගේ එකක් මගේ හිත කියන්නවා, ඒ වුනාට පොඩ්ඩ පොඩ්ඩ කල්පනවෙන් කරල බැලුවොත්, හරියට වැඩ ටික කරගන්න පුලුවන් වෙයි. මුල් ටික හරියට කරගත්තට පස්සෙ ලොකු අව්ලක් නැතුව කාලය හොන්ඩටම අරගෙන ඉතුරු වැඩ ටික හොදට කරගන්න පුලුවන් කියලා මම හිතනවා. එක නිසා මේ වඩ ටික හොදට තෙරුම් අරන් කරගෙන යමු."
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "name": "Convert daily sentence requesting prior notice.",
+    "type": "positive",
+    "input": "gihin enna kalin kiyanna.",
+    "expected": "ගිහින් එන්න කලින් කියන්න."
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "name": "Convert polite request for same day task completion.",
+    "type": "positive",
+    "input": "puLuvannam meeka adha ivara karalaa dhenna, meeka loku dheyak nemeyi.",
+    "expected": "පුළුවන්නම් මේක අද ඉවර කරලා දෙන්න, මේක ලොකු දෙයක් නෙමෙයි."
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "name": "Convert user experience with system error and relief.",
+    "type": "positive",
+    "input": "system eka error pennadhdhi mama aeththata kalabala vunaa, mokadha file tika save vuna dha kiyala sure nathi nisaa, eeth mama aayeth hithala balala app eka close karala aayeth open karala baeluvama data tika prashnayak naethuva thiyenavaa kiyalaa therumgaththa. ee nisaa hitha poddak sansun vuNaa.",
+    "expected": "system එක error පෙන්නද්දි මම ඇත්තට කලබල වුනා, මොකද file ටික save වුන ද කියල sure නති නිසා, ඒත් මම ආයෙත් හිතල බලල app එක close කරල ආයෙත් open කරල බැලුවම data ටික ප්‍රශ්නයක් නැතුව තියෙනවා කියලා තෙරුම්ගත්ත. ඒ නිසා හිත පොඩ්ඩක් සන්සුන් වුණා."
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "name": "Convert daily sentence indicating gradual understanding.",
+    "type": "positive",
+    "input": "tika tika hoDHata therum gaththaa.",
+    "expected": "ටික ටික හොඳට තෙරුම් ගත්තා."
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "name": "Convert daily sentence departure with invitation.",
+    "type": "positive",
+    "input": "mama gedhara yanavaa.                     Oyaa enavadha maath ekka?         Ehema nam kiyanna.                ",
+    "expected": "මම ගෙදර යනවා.\r\nඔයා එනවද මාත් එක්ක?\r\nඑහෙම නම් කියන්න."
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "name": "Convert daily sentence expressing regret and advice.",
+    "type": "positive",
+    "input": "oya dhaen mokadhdha karanna hithagena inne?? mama kiyuva velavee oyaa meekata register unanm mehema wenne naeenee. aayeth oyaata avurudhdhak balagen inna venava dhaen. anith dhavasevth velaavata vaedak karanna purudhu venna. ",
+    "expected": "ඔය දැන් මොකද්ද කරන්න හිතගෙන ඉන්නේ?? මම කියුව වෙලවේ ඔයා මේකට register උනන්ම් මෙහෙම wඑන්නෙ නෑනේ. ආයෙත් ඔයාට අවුරුද්දක් බලගෙන් ඉන්න වෙනව දැන්. අනිත් දවසෙව්ත් වෙලාවට වැඩක් කරන්න පුරුදු වෙන්න. "
+  },
+  {
+    "id": "Pos_Fun_0025",
+    "name": "Convert fdaily sentence indicating confusion.",
+    "type": "positive",
+    "input": "hariyata therenne naee.",
+    "expected": "හරියට තෙරෙන්නෙ නෑ."
+  },
+  {
+    "id": "Neg_Fun_0001",
+    "name": "Mixed symbols",
+    "type": "other",
+    "input": "mama @@ gedhara ###  yanavaa",
+    "expected": "The system should reject the input and display an invalid character or malformed sentence error."
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "name": "Pure English sentence",
+    "type": "other",
+    "input": "Could you stay away from my stuff?",
+    "expected": "This is a full english sentence and not converted"
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "name": "Extreme joined words",
+    "type": "other",
+    "input": "gihinennakalinkiyanna.",
+    "expected": "Incorrect conversion"
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "name": "Random meaningless input",
+    "type": "other",
+    "input": "hgtdc biuiugyudbuo miioiugjqp",
+    "expected": "Incorrect output"
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "name": "Numbers only",
+    "type": "other",
+    "input": 87656445333,
+    "expected": "No meaningful output"
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "name": "Excessive punctuation",
+    "type": "other",
+    "input": "mama gedhara yanavaa!!!!????",
+    "expected": "Distorted output"
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "name": "Capitalization overload",
+    "type": "other",
+    "input": "MAMA GEDHARA YANAVA",
+    "expected": "Inconsistent translation"
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "name": "URL inside input",
+    "type": "other",
+    "input": "mama gedhara yanavaa https://abc.com",
+    "expected": "URL not handled"
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "name": "Code - like input",
+    "type": "other",
+    "input": "if(mama){gedhara=yanavaa;}",
+    "expected": "No meaningful output"
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "name": "Tabs and Line breaks",
+    "type": "other",
+    "input": "mama\\ngedhara\\tyanavaa",
+    "expected": "Broken output"
+  },
+  {
+    "id": "Pos_UI_0001",
+    "name": "Sinhala output updates automatically in real-time",
+    "type": "positive",
+    "input": "man gedhara yanavaa",
+    "expected": "Sinhala output should update automatically while typing and display: මන් ගෙදර යනවා"
+  }
+]
