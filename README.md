@@ -23,7 +23,7 @@ It demonstrates automation of test cases using **Playwright** with test data man
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/KBCDilshani/IT23201996_IT3040.git)>
 cd IT23201996_ASSIGNMENT_1
 
 Install dependencies:
@@ -66,4 +66,5 @@ Generate HTML reports to track test execution results
 Author:
 DILSHANI K B C
 IT23201996
+
 
