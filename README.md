@@ -3,29 +3,6 @@
 This project is developed as part of **IT3040 – Playwright Automation** module.  
 It demonstrates automation of test cases using **Playwright** with test data managed in **Excel** files.
 
----
-
-## Project Structure
-
-IT23201996_ASSIGNMENT_1/
-│
-├── .github/ # GitHub configuration files
-├── node_modules/ # Node.js dependencies
-├── playwright-report/ # Playwright HTML test reports
-├── scripts/
-│ └── excel-to-json.js # Script to convert Excel test data to JSON
-├── test-data/
-│ ├── cases.json # Original test cases in JSON
-│ └── cases.updated.json # Updated test cases after processing
-├── test-results/ # Directory to store test execution results
-├── tests/
-│ ├── capture-expected.spec.js
-│ └── swifftranslator.spec.js
-├── IT23201996.xlsx # Excel file containing all test cases
-├── package.json # Node.js project configuration
-├── package-lock.json # Lock file for npm dependencies
-├── playwright.config.js # Playwright configuration file
-└── README.md # Project documentation
 
 
 ---
@@ -89,5 +66,6 @@ Generate HTML reports to track test execution results
 
 Author
 Dilshani K B C - IT23201996
+
 
 
