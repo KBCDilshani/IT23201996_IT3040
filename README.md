@@ -3,8 +3,6 @@
 This project is developed as part of **IT3040 – Playwright Automation** module.  
 It demonstrates automation of test cases using **Playwright** with test data managed in **Excel** files.
 
-
-
 ---
 
 ## Prerequisites
@@ -66,6 +64,7 @@ Generate HTML reports to track test execution results
 
 Author
 Dilshani K B C - IT23201996
+
 
 
 
