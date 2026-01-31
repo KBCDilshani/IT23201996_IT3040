@@ -25,35 +25,45 @@ It demonstrates automation of test cases using **Playwright** with test data man
 ```bash
 git clone <repository-url>
 cd IT23201996_ASSIGNMENT_1
+
 Install dependencies:
 npm install
+
 Install Playwright browsers:
 npx playwright install
 Convert Excel to JSON
 node scripts/excel-to-json.js
+
 Output will be saved in:
 test-data/cases.updated.json
-Run Tests
+
+Run Tests:
 npx playwright test
+
 Run a specific test file:
 npx playwright test tests/<test-file-name>.spec.js
-View Test Reports
+
+View Test Reports:
 npx playwright show-report
+
 Reports are stored in:
 playwright-report/
-Test Data
+
+Test Data:
 IT23201996.xlsx – Original Excel file with all test cases
 
 test-data/cases.json – Converted JSON data from Excel
 
 test-data/cases.updated.json – Updated JSON data used for test execution
-Project Objectives
+
+Project Objectives:
 Automate web-based test cases using Playwright
 
 Convert Excel test data into JSON format for automation
 
 Generate HTML reports to track test execution results
 
-Author
+Author:
 DILSHANI K B C
 IT23201996
+
