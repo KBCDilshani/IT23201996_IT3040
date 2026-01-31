@@ -1,304 +1,295 @@
 [
   {
     "id": "Pos_Fun_0001",
-    "name": "Convert a daily sentence indicating a traffic delay.",
+    "name": "Simple daily sentence",
     "type": "positive",
-    "input": "traffic thibba nisaa mama meeting ekata late vuNaa.",
+    "input": "mama gedhara innee.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0002",
-    "name": "Convert a compound daily request sentence with a missing confirmation.",
+    "name": "Compound sentence",
     "type": "positive",
-    "input": "oyaa kiyuva vidhihata form eka fill karalaa submit kalaa, namuth confirmation ekak thaama aave naehae. velaavak thibunoth oyaata puluvandha ee gaena balanna?",
+    "input": "api kaeema kanna yanavaa saha passe gedhara enavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0003",
-    "name": "Convert a daily sentence explaining task planning for a deadline",
+    "name": "Future plan with condition",
     "type": "positive",
-    "input": "mata iiLaGa sathiyee project deadline eka thiyena nisaa, mama dhaenma daily tasks hoDHata plan karanna hithuvaa. Reminders calendar eke set karalaa, sha unnecessary distractions avoid karanna social media usage limit karalaa, time mamangement hariyata maintain karanna loku uthsahayakk dhenavaa, mokadha kalin vagee deadline eka miss karanne naee kiyalaa mama hithaagaththaa.",
+    "input": "api heta gedhara yanna hadhanne namuth oyaa enne naehae nam api ehema gihin inne epaa kiyala thiranaa kala.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0004",
-    "name": "Convert a polite short request sentence",
+    "name": "Convert complex conditional sentence",
     "type": "positive",
-    "input": "karuNaakara eeka dhenna puluvandha?",
+    "input": "oya enavaanam mama balan innavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0005",
-    "name": "Convert polite request and document request generation",
+    "name": "Imperative command",
     "type": "positive",
-    "input": "samaavenna, podi vaeradhimak vunee. Oyaata puluvannam mata documents tika email karanna. Mama aaye ee tika hariyata hadhala evannam.",
+    "input": "vahaama enna.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0006",
-    "name": "Covert meeting miss scenario due to connectivity issue",
+    "name": "Negative sentence",
     "type": "positive",
-    "input": "Teams meeting ekee link eka WhatsApp karalaa Email ekakin confirm karanna vunaa. Namuth WiFi issue ekak thibba nisa confirmation eka hariyata vunee naee. Ee nisa mata meeting eka magarunaa.",
+    "input": "mama ehema karannee naehae.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0007",
-    "name": "Convert daily sentence indicating payment amount",
+    "name": "Polite request with explanation",
     "type": "positive",
-    "input": "mata Rs. 5000k gevanna thiyenavaa.",
+    "input": "karuNaakaralaa mata podi udhavvak karanna puLuvandha kiyala ahanna hithuve, mokadha eeka mata hari amaarui kiyala hithenavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0008",
-    "name": "Covert daily sentence expressing concern and advice.",
+    "name": "Negative explanation with cause",
     "type": "positive",
-    "input": "oyaa monavadha karanna yanne kiyalaa mata hariyata therenne nae, karana dheyak parissamen hithalaa balalaa karanna.",
+    "input": "mama adha vaeda karanna baee kiyala kiwwoth, eeka mama lassanata kiyuwe naehae namuth mata hari amaarui nisaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0009",
-    "name": "Convert emotinal state with work persistence sentence.",
+    "name": "Informal phrasing",
     "type": "positive",
-    "input": "adha dhavasa amuthu dhavasak vagee dhaenenavaa. Bhayak ekka loku mahansiyak dhaenunath adha dhavase vaeda tika ivara nokaloth vaeda godagaehena nisaa amaaruven vunath vaeda tika karanna gaththaa. ",
+    "input": "ehema karapan.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0010",
-    "name": "Convert daily sentence expressing approval",
+    "name": "Repeated words",
     "type": "positive",
-    "input": "ela machan, supiri plan ekak!",
+    "input": "hari hari lassanayi.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0011",
-    "name": "Convert daily sentence requesting clarification",
+    "name": "Joined words",
     "type": "positive",
-    "input": "oyaa mehema karanne mokak nissaa dha kiyala mata hariyata therenne nae, poddak therum karalaa kiyanna puluwndha mata?",
+    "input": "mamagedharayanavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0012",
-    "name": "Converted future dated personal event sentence ",
+    "name": "Past tense",
     "type": "positive",
-    "input": "heta 2026-01-22 godak visheeSha dhavasak vageema vaeda vaedi dhavasak. heta 11.00 AM vedhdhi api colombo inna oona mokadha magee hoDHama yaaLuvaagee wedding eka nisaa. heta dhavasa lassana vageema godaak sathutu hithena dhavasak veevi. ",
+    "input": "mama iiyee gedhara giyaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0013",
-    "name": "Convert past tense sentence",
+    "name": "Present tense",
     "type": "positive",
-    "input": "mama iiyee parakku vunaa.",
+    "input": "mama dhaen vaeda karanavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0014",
-    "name": "Convert daily sentence indicating relaxation.",
+    "name": "Future plan with condition",
     "type": "positive",
-    "input": "mama dhean chill mode ekee inne, poddak music ahala hitha relax karagnna hadhanavaa.",
+    "input": "api heta gedhara yanna hadhanne namuth oyaa enne naehae nam api ehema gihin inne epaa kiyala thiranaa kala.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0015",
-    "name": "Convert polite request for detailed explanation.",
+    "name": "Plural pronoun",
     "type": "positive",
-    "input": "karuNaakaralaa oyaa meeka gaena podi vistharayak karalaa kiyanna, mokadha mama kalin karapu dheval samaga meeka poddak venas vagee kiyalaa hithenavaa, ee nisaa mee dhee gaena mata unandhuvak vageema hariyata therum ganna loku aasavak thiyenavaa.",
+    "input": "oyaalaa enavadha?",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0016",
-    "name": "Convert daily sentence indicating acknowledgement.",
+    "name": "Mixed English + Singlish",
     "type": "positive",
-    "input": "hari, mama eeka balannam.",
+    "input": "mata Zoom meeting ekak thiyenavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0017",
-    "name": "Convert future intention work completion sentence.",
+    "name": "Abbreviation handling",
     "type": "positive",
-    "input": "mama heta dhavasa aethulatha mee vaedee kohomahari ivara karanavaa kiyalaa hithagena inne.",
+    "input": "magee NIC eka office ekata evanna.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0018",
-    "name": "Convert daily reflection on task difficulty and strategy.",
+    "name": "Currency format",
     "type": "positive",
-    "input": "adoo meeka nam tikak amaaruyi machan, eka paarata hithala karanna baee vagee ekak magee hitha kiyannavaa, ee vunaata podda podda kalpanaven karala baeluvoth, hariyata vaeda tika karaganna puluvan veyi. mul tika hariyata karagaththata passe loku avlak naethuva kaalaya hondatama aragena ithuru vaeda tika hodhata karaganna puluvan kiyalaa mama hithanavaa. eka nisaa mee vada tika hodhata therum aran karagena yamu.",
+    "input": "salary eka Rs. 50000.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0019",
-    "name": "Convert daily sentence requesting prior notice.",
+    "name": "Time format",
     "type": "positive",
-    "input": "gihin enna kalin kiyanna.",
+    "input": "meeting eka 7.30 AM patan gannavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0020",
-    "name": "Convert polite request for same day task completion.",
+    "name": "Date format",
     "type": "positive",
-    "input": "puLuvannam meeka adha ivara karalaa dhenna, meeka loku dheyak nemeyi.",
+    "input": "exam eka 2026-05-21.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0021",
-    "name": "Convert user experience with system error and relief.",
+    "name": "Units",
     "type": "positive",
-    "input": "system eka error pennadhdhi mama aeththata kalabala vunaa, mokadha file tika save vuna dha kiyala sure nathi nisaa, eeth mama aayeth hithala balala app eka close karala aayeth open karala baeluvama data tika prashnayak naethuva thiyenavaa kiyalaa therumgaththa. ee nisaa hitha poddak sansun vuNaa.",
+    "input": "rice kilo 2k ganna.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0022",
-    "name": "Convert daily sentence indicating gradual understanding.",
+    "name": "Multiple spaces",
     "type": "positive",
-    "input": "tika tika hoDHata therum gaththaa.",
+    "input": "mama   gedhara    yanavaa.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0023",
-    "name": "Convert daily sentence departure with invitation.",
+    "name": "Line break",
     "type": "positive",
-    "input": "mama gedhara yanavaa.                     Oyaa enavadha maath ekka?         Ehema nam kiyanna.                ",
+    "input": "mama gedhara yanavaa.\r\noyaa enavadha?",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Pos_Fun_0024",
-    "name": "Convert daily sentence expressing regret and advice.",
+    "name": "Long paragraph",
     "type": "positive",
-    "input": "oya dhaen mokadhdha karanna hithagena inne?? mama kiyuva velavee oyaa meekata register unanm mehema wenne naeenee. aayeth oyaata avurudhdhak balagen inna venava dhaen. anith dhavasevth velaavata vaedak karanna purudhu venna. ",
-    "expected": "Singlish",
-    "actual": "Singlish",
-    "status": "Pass"
-  },
-  {
-    "id": "Pos_Fun_0025",
-    "name": "Convert fdaily sentence indicating confusion.",
-    "type": "positive",
-    "input": "hariyata therenne naee.",
+    "input": "raajaya aayaathanavalin labaa dunna vaartaa anuva, adhika vaahanna thada badha nisaa nagaraya thula pravaahana pramaaada aethi vuu athara, ehi vaeda kataayuthu heta dawasheedi aarambha kirimata niyamitava aethi bava adhikaarihu saDHahan kaLaaha.",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
   },
   {
     "id": "Neg_Fun_0001",
-    "name": "Mixed symbols",
+    "name": "Code like input",
     "type": "other",
-    "input": "mama @@ gedhara ###  yanavaa",
-    "expected": "The system should reject the input and display an invalid character or malformed sentence error."
+    "input": "If(ada wassoth mama wadata yanne na)else(yanawa).",
+    "expected": "අද වස්සොත් මම වැඩට යන්නෙ නෑ."
   },
   {
     "id": "Neg_Fun_0002",
-    "name": "Pure English sentence",
+    "name": "Unicode issue",
     "type": "other",
-    "input": "Could you stay away from my stuff?",
-    "expected": "This is a full english sentence and not converted"
+    "input": "mama \\u1234 \\u5678",
+    "expected": "Invalid input."
   },
   {
     "id": "Neg_Fun_0003",
-    "name": "Extreme joined words",
+    "name": "Pure English",
     "type": "other",
-    "input": "gihinennakalinkiyanna.",
-    "expected": "Incorrect conversion"
+    "input": "This is a full English sentence.",
+    "expected": "මෙය සම්පූර්ණ ඉංග්‍රීසි වාක්‍යයකි."
   },
   {
     "id": "Neg_Fun_0004",
-    "name": "Random meaningless input",
+    "name": "Only numbers",
     "type": "other",
-    "input": "hgtdc biuiugyudbuo miioiugjqp",
-    "expected": "Incorrect output"
+    "input": 123456789,
+    "expected": "No Sinhala output."
   },
   {
     "id": "Neg_Fun_0005",
-    "name": "Numbers only",
+    "name": "Emoji input",
     "type": "other",
-    "input": 87656445333,
-    "expected": "No meaningful output"
+    "input": "mama gedhara yanavaa 😊.",
+    "expected": "මම ගෙදර යනවා."
   },
   {
     "id": "Neg_Fun_0006",
-    "name": "Excessive punctuation",
+    "name": "Broken grammar",
     "type": "other",
-    "input": "mama gedhara yanavaa!!!!????",
-    "expected": "Distorted output"
+    "input": "yanavaa mama gedhara.",
+    "expected": " මම යනවා ගෙදර."
   },
   {
     "id": "Neg_Fun_0007",
-    "name": "Capitalization overload",
+    "name": "Symbols mixed",
     "type": "other",
-    "input": "MAMA GEDHARA YANAVA",
-    "expected": "Inconsistent translation"
+    "input": "mama !!! gedhara yanavaa.",
+    "expected": "මම ගෙදර යනවා."
   },
   {
     "id": "Neg_Fun_0008",
-    "name": "URL inside input",
+    "name": "convert  the URL",
     "type": "other",
-    "input": "mama gedhara yanavaa https://abc.com",
-    "expected": "URL not handled"
+    "input": "meken gihin balala kiyanna wada karanawada kiyala https://dog.com.",
+    "expected": "මෙකෙන් ගිහින් බලල කියන්න වැඩ කරනවඩ කියල https://dog.com."
   },
   {
     "id": "Neg_Fun_0009",
-    "name": "Code - like input",
+    "name": "Joined compound words",
     "type": "other",
-    "input": "if(mama){gedhara=yanavaa;}",
-    "expected": "No meaningful output"
+    "input": "apipassekathakaramu.",
+    "expected": "අපි පස්සේ කතා කරමු."
   },
   {
     "id": "Neg_Fun_0010",
-    "name": "Tabs and Line breaks",
+    "name": "Symbols mixed",
     "type": "other",
-    "input": "mama\\ngedhara\\tyanavaa",
-    "expected": "Broken output"
+    "input": "mama facebook eka balanavaa.",
+    "expected": "මම මුහුණුපොත එක බලනවා."
   },
   {
     "id": "Pos_UI_0001",
-    "name": "Sinhala output updates automatically in real-time",
+    "name": "Real-time translation updates for sentence completion",
     "type": "positive",
-    "input": "man gedhara yanavaa",
+    "input": "oya gedhara enavaa",
     "expected": "Singlish",
     "actual": "Singlish",
     "status": "Pass"
